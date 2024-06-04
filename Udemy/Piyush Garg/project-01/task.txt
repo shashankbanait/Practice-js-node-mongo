@@ -12,3 +12,9 @@ DELETE /users/1 - Delete the user with ID 1
 DYNAMIC PATH PARAMETERS
 GET /api/users/:id 
 :id -> Variable | Dynamic
+//___________________________________________
+
+Schema - Define the structure
+    Schema - Model
+    Using this model we do CRUD operation
+    
