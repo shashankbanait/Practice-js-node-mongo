@@ -6,14 +6,6 @@ const mongoose = require("mongoose");
 
 const userRouter = require("./routes/user")
 
-// Connection
-mongoose.connect("mongodb://127.0.0.1:27017/youtube-app-1")
-    .then(() => console.log("MongoDB Connected"))
-    .catch((err) => console.log("Mongo error", err));
-
-// Schema
-
-
 // Middleware - Plugin
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json()); // Add this line to parse JSON bodies
